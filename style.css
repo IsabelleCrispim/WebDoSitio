@@ -1,0 +1,105 @@
+
+#nav-row {
+    position: absolute;
+    z-index: 2;
+    
+}
+
+#nav-top > button.navbar-toggler:focus {
+    border: none!important;
+}
+.navbar-nav  {
+    color: rgba(255,136,34,0.7);
+}
+
+.info-icon .card .card-title {
+    color:rgba(255,136,34,0.7)
+
+}
+.card-products {
+    background-color:#C1D4E2;
+    
+}
+.button-add {
+    background-color:#FFBE66; 
+    color: white;
+    font-weight: bold;
+    transition-property:all;
+    transition-duration: 20ms ;
+   text-shadow: 0 1px 1px #7F4A00;
+ }
+.btn:hover {
+   color: white;
+   box-shadow: 0 0 9px #B26700;
+   text-shadow: 0 0 30px white;
+  
+}
+.form-email {
+    position: relative;
+  }
+  
+  .form-email input, .form-email input:focus {
+      border: none;
+      border-bottom: 1px solid #000000;
+      border-radius:0;
+      outline:none;
+      box-shadow:none;
+      background: transparent;
+  }
+  
+  .form-email > label {
+    color:gray;
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    transition: all 1s;
+  }
+  
+  .form-email input:focus + label, .form-email input:valid + label {
+    color: black;
+    top: -1.5rem;
+    left: 0;
+  }
+  /*
+  .form-email input:focus, .form-email input:valid {
+    border-bottom: 1px solid orange;
+  }*/
+  .form-email hr {
+    position: absolute;
+    top:1.3rem;
+    left:0;
+    display:block;
+    height: 2px;
+    width: 0;
+    background: orange;
+    transition: width 1s;
+  }
+  .form-email input:focus ~ hr {
+    width: 100%;
+  }
+  .footer-style {
+      background-color:#8EB2B9;
+      color:white;
+  }
+  .links ul {
+    list-style-type: none;
+
+  }
+  .links ul li a {
+    color: white; 
+  }
+  .links ul li a:hover {
+    text-decoration:none;
+    color:  #ff6900;
+  }
+
+  .about-company p  a {
+    font-size: 2rem; 
+    color:#FFD499;  
+    transition: all 1s;
+
+  }
+  .about-company p  a:hover {
+    text-decoration:none;
+    color: rgba(255,136,34,0.7);
+  }
