@@ -14,7 +14,7 @@
 <body>
     <div class="container-fluid p-0">
         <header id="header">
-            <div id="nav-row" class="row p-0 w-100 d-flex justify-content-center position-fixed">
+            <div id="nav-row" class="row p-0 m-0 w-100 d-flex justify-content-center position-fixed">
                 <nav class="navbar navbar-expand-sm navbar-dark flex-grow-1" id="nav-top">
                     <a class="navbar-brand active d-sm-none " href="#">
                         <img src="https://raw.githubusercontent.com/IsabelleCrispim/img-carnaval/master/webBread/logo.svg"
@@ -26,18 +26,19 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbar-collapse">
                         <div class="navbar-nav ">
-                            <a class="nav-item nav-link" style="color:#FFD499;" href="#">Home<span class="sr-only"></span></a>
+                            <a class="nav-item nav-link" style="color:#FFD499;" href="#">Home<span
+                                    class="sr-only"></span></a>
                             <a class="nav-item nav-link" style="color:#FFD499;" href="#">Features</a>
                             <a class="navbar-brand active" style="color:#FFD499;" href="#">
                                 <img src="https://raw.githubusercontent.com/IsabelleCrispim/img-carnaval/master/webBread/logo.svg"
                                     width="140" height="30" alt=""></a>
-                            <a class="nav-item nav-link"style="color:#FFD499;" href="#">Pricing</a>
+                            <a class="nav-item nav-link" style="color:#FFD499;" href="#">Pricing</a>
                             <a class="nav-item nav-link" style="color:#FFD499;" href="#">Event</a>
                         </div>
                     </div>
                 </nav>
             </div>
-            <div class="row p-0 t-0">
+            <div class="row p-0">
                 <div class="carousel slide" id="carousel-main" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
@@ -71,8 +72,8 @@
         </header>
         <!--Section-ICON-->
         <section class="title-top-card">
-            <div class="row-top-title row pt-4 justify-content-center">
-                <div class="col col-sm-4">
+            <div class="row-top-title row p-4 justify-content-center">
+                <div class="col col-sm-8">
                     <h3>Some question call action</h3>
                     <p>Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
@@ -137,7 +138,7 @@
                             <label class="" for="email">Your email</label>
                             <hr>
                         </div>
-                        <input class="btn btn-primary m-auto" type="submit" value="Submit" >    
+                        <input class="btn btn-primary m-auto" type="submit" value="Submit">
                     </form>
                 </div>
             </div>
@@ -146,8 +147,8 @@
         <!--Card-products-->
         <section class="card-products pt-4 m-4 bg-transparent bg-sm-primary">
             <div class="title-card-products">
-                <div class="row  row-card pt-4 d-flex justify-content-center">
-                    <div class="col col-sm-4">
+                <div class="row row-card pt-4 justify-content-center">
+                    <div class="col col-sm-8">
                         <h3>Some question call action</h3>
                         <p>Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
@@ -155,109 +156,113 @@
                 </div>
             </div>
             <!--Section-cards-->
-            <div class="card-products-row row">
-                <div class="card-deck pt-3 m-auto pb-4">
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top "
-                            src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="button-add btn ">Go somewhere</a>
-                        </div>
+            <div class="card-products-row row row-cols-sm-2 row-cols-lg-4">
+                <div class="card col-sm-6 col-lg-3 my-1">
+                    <img class="card-img-top "
+                        src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="button-add btn">Go somewhere</a>
                     </div>
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="button-add btn ">Go somewhere</a>
-                        </div>
+                </div>
+                <div class="card col-sm-6 col-lg-3 my-1">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="button-add btn ">Go somewhere</a>
                     </div>
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="button-add btn ">Go somewhere</a>
-                        </div>
+                </div>
+                <div class="card col-sm-6 col-lg-3 my-1">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="button-add btn ">Go somewhere</a>
                     </div>
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="button-add btn ">Go somewhere</a>
-                        </div>
+                </div>
+                <div class="card col-sm-6 col-lg-3 my-1">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="button-add btn ">Go somewhere</a>
                     </div>
                 </div>
             </div>
-        </section>
-        <hr>
-        <!--Video-->
-        <section>
-            <div class="row justify-content-center px-xm-1">
-                <div class="col-sm-4 ">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FW3ZcuxxEhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+    </div>
+    </section>
+    <hr>
+    <!--Video-->
+    <section>
+        <div class="row justify-content-center p-4">
+            <div class="col-sm-4 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FW3ZcuxxEhw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
-        </section>
-        <!--TheEndVideo-->
-        <!--Footer--> 
-        <section>
-            <div class="footer-style  mt-5 pt-5 pb-5 ml-xm-5  pl-xm-4 footer">
-                <div class="row ml-lg-3 ">
-                    <div class="col-lg-5 col-xs-12 about-company">
-                        <h2 style="color:#ffcd88;">Heading</h2>
-                        <p class="pr-5 " >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-                        <p><a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+    <!--TheEndVideo-->
+    <!--Footer-->
+    <section>
+        <div class="footer-style  mt-5 p-4 footer">
+            <div class="row ml-lg-3 ">
+                <div class="col-lg-5 col-xs-12 about-company">
+                    <h2 style="color:#ffcd88;">Heading</h2>
+                    <p class="pr-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam
+                        tristique convallis </p>
+                    <p><a href="#"><i class="fab fa-youtube"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a></p>
-                    </div>
-                    <div class="col-lg-3 col-xs-12 links">
-                        <h4 class="" style="color:#ffcd88;">Links</h4>
-                        <ul class="p-0">
-                            <li class="pb-2"> <a href="#">Lorem ipsum</a></li>
-                            <li class="pb-2"> <a href="#">Nam mauris velit</a></li>
-                            <li class="pb-2"><a href="#">Etiam vitae mauris</a></li>
-                            <li class="pb-2"><a href="#">Fusce scelerisque</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-xs-12 location">
-                        <h4 class="mt-lg-0 mt-sm-4" style="color:#ffcd88;">Location</h4>
-                        <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-                        <p class="mb-0"><i class="fa fa-phone mr-3"></i>(000) 000-000</p>
-                        <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
-                    </div>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </p>
                 </div>
-                <div class="row ml-3 justify-content-end">
-                    <div class="col copyright">
-                      <p class=""><small class="">© 2021. All Rights Reserved.</small></p>
-                    </div>
+                <div class="col-lg-3 col-xs-12 links">
+                    <h4 class="" style="color:#ffcd88;">Links</h4>
+                    <ul class="p-0">
+                        <li class="pb-2"> <a href="#">Lorem ipsum</a></li>
+                        <li class="pb-2"> <a href="#">Nam mauris velit</a></li>
+                        <li class="pb-2"><a href="#">Etiam vitae mauris</a></li>
+                        <li class="pb-2"><a href="#">Fusce scelerisque</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-xs-12 location">
+                    <h4 class="mt-lg-0 mt-sm-4" style="color:#ffcd88;">Location</h4>
+                    <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+                    <p class="mb-0"><i class="fa fa-phone mr-3"></i>(000) 000-000</p>
+                    <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+                </div>
             </div>
-        </section>
-       <!--TheEndFooter--> 
-    
+            <div class="row ml-3 justify-content-end">
+                <div class="col copyright">
+                    <p class=""><small class="">© 2021. All Rights Reserved.</small></p>
+                </div>
+            </div>
+    </section>
+    <!--TheEndFooter-->
+
     </div>
 
     <!--The end Section-card-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
